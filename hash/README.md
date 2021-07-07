@@ -125,17 +125,24 @@
 >예제 #1
 headgear에 해당하는 의상이 yellow_hat, green_turban이고 eyewear에 해당하는 의상이 blue_sunglasses이므로 아래와 같이 5개의 조합이 가능합니다.
 
+    1. yellow_hat
+    2. blue_sunglasses
+    3. green_turban
+    4. yellow_hat + blue_sunglasses
+    5. green_turban + blue_sunglasses
+
 >예제 #2
-한 번호가 다른 번호의 접두사인 경우가 없으므로, 답은 true입니다.
+face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로 아래와 같이 3개의 조합이 가능합니다.
 
->예제 #3
-첫 번째 전화번호, “12”가 두 번째 전화번호 “123”의 접두사입니다. 따라서 답은 false입니다.
+    1. crow_mask
+    2. blue_sunglasses
+    3. smoky_makeup
 
-출처 : https://nordic.icpc.io/
+출처 : http://2013.bapc.eu/
 
 문제 접근
->빠른 검색을 위해서 해시를 사용한다. 따라서 파이썬에서 해시테이블을 사용한 자료형인 dictionary를 사용한다.
+>각 의상의 종류별로 key를 하고 종류별 개수를 value로 하여 dictionary를 만든다.
 
->각 Key 마다 문자열의 길이만큼 Value로 설정해준다. 또한 모든 문자열의 길이를 중복없이 배열에 저장한다. 이는 길이만큼 각 문자열의 앞부분만을 남겨 접두어를 찾기 위함이다.
+>각 의상의 종류의 개수를 통해서 개수+1을 곱해준다. 여기서 의상의 종류의 개수에 1을 더하는 이유는 안입을 경우를 포함하기 위함이다.
 
->각 문자열의 앞부분을 잘라 접두어가 되는지 확인한다. 이를 위해서 문자열의 앞부분을 자르고 dictionary 내부에서 해당 문자열이 있는지 찾는다. 이 때 접두어가 하나라도 있는 경우 false이기 때문에 만약 찾았다면 for문을 탈출한다.
+>마지막으로 answer에서 1을 빼준다. 여기서 1을 빼주는 이유는 아무 것도 안입은 경우를 제거하기 위함이다.
