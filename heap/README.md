@@ -1,5 +1,5 @@
-# Stack & Queue
-### 1. 기능 개발 (development.py)
+# Heap
+### 1. 더 맵게 (spicier.py)
 ---
 문제 설명
 
