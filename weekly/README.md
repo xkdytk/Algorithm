@@ -1,6 +1,6 @@
 # Weekly Challenge
 ---
-# 1주차
+## 1주차
 ### 1. 부족한 금액 계산하기 (insufficient_amount.py)
 ---
 문제 설명
