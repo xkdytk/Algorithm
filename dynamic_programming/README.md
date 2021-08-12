@@ -103,7 +103,7 @@ max 메소드를 이용하여 그 중 가장 큰 값을 골라준다.
 
 아래 그림은 m = 4, n = 3 인 경우입니다.
 
-
+![image](https://user-images.githubusercontent.com/57613321/129195885-cd16c223-2935-4f1e-b93c-ea030eb5f524.png)
 
 가장 왼쪽 위, 즉 집이 있는 곳의 좌표는 (1, 1)로 나타내고 가장 오른쪽 아래, 즉 학교가 있는 곳의 좌표는 (m, n)으로 나타냅니다.
 
@@ -123,7 +123,7 @@ max 메소드를 이용하여 그 중 가장 큰 값을 골라준다.
 
 입출력 예 설명
 
-
+![image](https://user-images.githubusercontent.com/57613321/129195906-91542031-8a9a-4f01-b2e0-1abc16afd8bb.png)
 
 출처 : https://programmers.co.kr/learn/courses/30/lessons/42898
 
