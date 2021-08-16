@@ -13,3 +13,5 @@ def solution(numbers, target):
         queue.append((sum-numbers[idx-1], idx+1))
 
     return answer
+
+print(solution([1, 1, 1, 1, 1],3))
