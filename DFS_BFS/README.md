@@ -1,5 +1,5 @@
-# Dynamic Programming
-### 1. N으로 표현 (n_express.py)
+# DFS/BFS
+### 1. 타겟 넘버 (target_num.py)
 ---
 문제 설명
 
