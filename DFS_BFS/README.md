@@ -67,9 +67,13 @@ n개의 음이 아닌 정수가 있습니다. 이 수를 적절히 더하거나 
 
 아래와 같이 2개의 네트워크가 있습니다.
 
+![image](https://user-images.githubusercontent.com/57613321/129688070-bfda3655-5ef4-4b5d-867a-bdf6ca5f63dc.png)
+
 예제 #2
 
 아래와 같이 1개의 네트워크가 있습니다.
+
+![image](https://user-images.githubusercontent.com/57613321/129688088-53b1bfb6-5556-4d72-847b-cc4491f9c9b1.png)
 
 출처 : https://programmers.co.kr/learn/courses/30/lessons/43162
 
