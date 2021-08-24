@@ -185,10 +185,11 @@
 
 아래 사진은 개발자 언어 선호도 나타낸 표입니다.
 
-
+![image](https://user-images.githubusercontent.com/57613321/130587572-1f4b78c3-bb80-40a2-a631-5c2a86af44ff.png)
 
 아래 사진은 개발자가 선호하는 언어의 직업군 언어 점수를 나타낸 표입니다.
 
+![image](https://user-images.githubusercontent.com/57613321/130587600-dba48c2b-f76e-4a9a-ab4f-ae2199abcfd2.png)
 
 따라서 점수 총합이 41로 가장 높은 "HARDWARE"를 return 해야 합니다.
 
@@ -198,8 +199,11 @@
 
 아래 사진은 개발자 언어 선호도 나타낸 표입니다.
 
+![image](https://user-images.githubusercontent.com/57613321/130587631-0cb2e472-4b86-45d1-9294-5ebad6e2f12e.png)
 
 아래 사진은 개발자가 선호하는 언어의 직업군 언어 점수를 나타낸 표입니다.
+
+![image](https://user-images.githubusercontent.com/57613321/130587648-c4548ed7-dd33-454f-a020-63d1ca8c97a7.png)
 
 점수 총합이 55로 가장 높은 직업군은 "SI" 와 "PORTAL"입니다.
 
